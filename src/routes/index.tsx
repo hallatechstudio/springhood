@@ -9,10 +9,10 @@ export const Route = createFileRoute("/")({
 });
 
 const services = [
-  { num: "01", title: "Acquisitions", body: "Curated buyer representation across estates, penthouses, and architecturally significant homes. We listen first, advise privately, and negotiate with the patience the right address deserves." },
-  { num: "02", title: "Listings & Sales", body: "Considered marketing, editorial photography, and quiet introductions to a global buyer network. Every home is presented with the discretion its owner expects." },
-  { num: "03", title: "Private Rentals", body: "Long-tenure leases and discreet seasonal placements in our most distinguished residences, matched to tenants who treat a home like their own." },
-  { num: "04", title: "Asset Management", body: "Full-service stewardship — staffing, maintenance, renovation oversight, and reporting — so your property remains effortless to own from anywhere in the world." },
+  { num: "01", title: "Acquisitions", body: "We help you find and buy the finest estates and homes. Our team provides private advice and patient negotiation to secure the right address for you." },
+  { num: "02", title: "Listings & Sales", body: "We market your home with professional care and discretion. Our global network connects you with serious buyers while protecting your privacy at every step." },
+  { num: "03", title: "Private Rentals", body: "We manage high-end rentals for long-term and seasonal stays. Our process matches your home with responsible tenants who value and respect your property." },
+  { num: "04", title: "Asset Management", body: "We take full care of your property, from maintenance to staffing. Our team handles the daily details so your home remains easy to own from anywhere." },
 ];
 
 const principles = [
@@ -23,9 +23,7 @@ const principles = [
 ];
 
 const team = [
-  { name: "Amaka Onuoha", role: "Founding Principal", years: "22 yrs" },
-  { name: "Tunde Folawiyo", role: "Head of Acquisitions", years: "14 yrs" },
-  { name: "Chioma Okoro", role: "Director, Estates", years: "11 yrs" },
+  { name: "David igbokwe", role: "Director, Estates", years: "11 yrs" },
 ];
 
 const testimonials = [
@@ -78,7 +76,7 @@ function Hero() {
       <Nav />
 
       <div className="relative mx-auto flex min-h-[100svh] max-w-7xl flex-col justify-end px-6 pb-20 pt-40 md:px-10 md:pb-28">
-        <div className="hairline mb-6 text-sky">Est. 1998 · Distinguished Residences</div>
+        <div className="hairline mb-6 text-sky">Est. 2008 · Distinguished Residences</div>
         <h1 className="max-w-5xl font-display text-5xl font-light leading-[1.02] md:text-7xl lg:text-[5.5rem]">
           Homes with a quiet
           <span className="italic text-sky-soft"> sense of place.</span>
@@ -106,7 +104,7 @@ function Hero() {
 
         <div className="mt-16 grid grid-cols-2 gap-px border-t border-white/15 bg-white/15 text-white md:grid-cols-4">
           {[
-            ["28", "Years curating"],
+            ["18", "Years curating"],
             ["$2.4B", "In transactions"],
             ["140+", "Estates sold"],
             ["19", "Countries served"],
@@ -132,8 +130,8 @@ function Manifesto() {
         </h2>
         <div className="mt-12 grid gap-10 text-lg leading-relaxed text-muted-foreground md:grid-cols-2">
           <p>
-            For nearly three decades, Springhood Properties has guided a deliberately small group of
-            clients through the decisions that quietly shape a life — where to live, what to keep,
+            For nearly two decades, Springhood Properties has guided a deliberately small group of
+            clients through the decisions that quietly shape a life where to live, what to keep,
             and when to let a beloved address pass to its next custodian.
           </p>
           <p>
@@ -159,7 +157,7 @@ function Principles() {
             </h2>
             <p className="mt-6 max-w-md text-white/70">
               They are not slogans. They are the reasons our clients introduce us to their
-              closest friends — and why, twenty-eight years in, we still answer every inquiry
+              closest friends — and why, eighteen years in, we still answer every inquiry
               ourselves.
             </p>
           </div>
@@ -226,8 +224,8 @@ function About() {
             className="aspect-[4/5] w-full object-cover"
           />
           <div className="absolute -bottom-6 -right-6 hidden bg-sky px-6 py-5 text-sky-deep md:block">
-            <div className="font-display text-3xl">Since 1998</div>
-            <div className="text-xs uppercase tracking-[0.18em]">Family-led, by design</div>
+            <div className="font-display text-3xl">Since 2008</div>
+            <div className="text-xs uppercase tracking-[0.18em]">Family led</div>
           </div>
         </div>
         <div className="flex flex-col justify-center">
@@ -236,7 +234,7 @@ function About() {
             A small firm with a long memory.
           </h2>
           <p className="mt-6 text-muted-foreground">
-            Founded by Amaka Onuoha in 1998, Springhood Properties has remained deliberately small —
+            Springhood Properties has remained deliberately small —
             twelve specialists representing a focused list of homes we know intimately. Our clients are
             collectors, founders, and families who plan in decades, not quarters.
           </p>
@@ -339,7 +337,7 @@ function Footer() {
     <footer className="bg-sky-deep text-white/80">
       <div className="mx-auto flex max-w-7xl flex-col gap-6 px-6 py-10 md:flex-row md:items-center md:justify-between md:px-10">
         <div className="font-display text-lg text-white">
-          <span className="text-sky">⬩</span> Springhood Properties
+          <span className="text-sky">⬩</span> Springhood Properties Ltd
         </div>
         <div className="text-xs tracking-[0.18em] uppercase text-white/50">
           © {new Date().getFullYear()} Springhood Properties · All rights reserved

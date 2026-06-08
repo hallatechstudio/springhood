@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { ArrowUpRight, MessageCircle, Phone, MapPin, Award, ShieldCheck, Globe2, Sparkles, Quote } from "lucide-react";
+import { ArrowUpRight, MessageCircle, Phone, MapPin, Award, ShieldCheck, Globe2, Sparkles, Quote, Mail } from "lucide-react";
 
 import heroVilla from "@/assets/hero-villa.jpg";
 import aboutInterior from "@/assets/about-interior.jpg";
@@ -305,8 +305,9 @@ function Contact() {
             confidential whether or not we proceed, and there is never an obligation to continue.
           </p>
           <div className="mt-10 space-y-4 text-sm text-sky-deep">
-            <div className="flex items-center gap-3"><Phone className="h-4 w-4 text-sky" /> 08030050366</div>
+            <div className="flex items-center gap-3"><Phone className="h-4 w-4 text-sky" /> 080330500326</div>
             <div className="flex items-center gap-3"><Phone className="h-4 w-4 text-sky" /> 08187515551</div>
+            <div className="flex items-center gap-3"><Mail className="h-4 w-4 text-sky" /> hello@springhoodproperties.com</div>
             <div className="flex items-center gap-3"><MapPin className="h-4 w-4 text-sky" /> Randle Avenue, Surulere, Lagos</div>
           </div>
         </div>
@@ -318,7 +319,7 @@ function Contact() {
             The quickest way to start a private conversation. Tap the button below and a principal will respond directly.
           </p>
           <a
-            href="https://wa.me/2348187515551"
+            href="https://wa.me/23480330500326"
             target="_blank"
             rel="noopener noreferrer"
             className="mt-6 inline-flex items-center gap-2 bg-whatsapp px-8 py-4 text-sm font-medium text-white transition hover:bg-whatsapp/90"

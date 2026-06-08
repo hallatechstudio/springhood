@@ -23,9 +23,9 @@ const principles = [
 ];
 
 const team = [
-  { name: "Eleanor Hawthorne", role: "Founding Principal", years: "22 yrs" },
-  { name: "Marcus Aldridge", role: "Head of Acquisitions", years: "14 yrs" },
-  { name: "Priya Venkatesh", role: "Director, Estates", years: "11 yrs" },
+  { name: "Amaka Onuoha", role: "Founding Principal", years: "22 yrs" },
+  { name: "Tunde Folawiyo", role: "Head of Acquisitions", years: "14 yrs" },
+  { name: "Chioma Okoro", role: "Director, Estates", years: "11 yrs" },
 ];
 
 const testimonials = [
@@ -236,7 +236,7 @@ function About() {
             A small firm with a long memory.
           </h2>
           <p className="mt-6 text-muted-foreground">
-            Founded by Eleanor Hawthorne in 1998, Springhood Properties has remained deliberately small —
+            Founded by Amaka Onuoha in 1998, Springhood Properties has remained deliberately small —
             twelve specialists representing a focused list of homes we know intimately. Our clients are
             collectors, founders, and families who plan in decades, not quarters.
           </p>

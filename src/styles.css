@@ -31,14 +31,12 @@
 --color-sky: var(--sky);
    --color-sky-soft: var(--sky-soft);
    --color-sky-deep: var(--sky-deep);
-   --color-whatsapp: oklch(0.65 0.18 145);
-  --color-destructive: var(--destructive);
-  --color-destructive-foreground: var(--destructive-foreground);
---color-border: var(--border);
+   --color-whatsapp: oklch(0.76 0.22 142);
+   --color-destructive: var(--destructive);
+   --color-destructive-foreground: var(--destructive-foreground);
+   --color-border: var(--border);
    --color-input: var(--input);
    --color-ring: var(--ring);
-   --color-destructive-foreground: var(--destructive-foreground);
-   --color-whatsapp: oklch(0.65 0.18 145);
  }
 
 :root {
@@ -69,7 +67,7 @@
 --sky: oklch(0.65 0.14 245);
    --sky-soft: oklch(0.75 0.10 245);
    --sky-deep: oklch(0.35 0.08 245);
-   --whatsapp: oklch(0.65 0.18 145);
+   --whatsapp: oklch(0.76 0.22 142);
 
   --destructive: oklch(0.55 0.22 27);
   --destructive-foreground: oklch(0.98 0 0);

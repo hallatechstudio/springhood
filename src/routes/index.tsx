@@ -305,7 +305,7 @@ function Contact() {
             confidential whether or not we proceed, and there is never an obligation to continue.
           </p>
           <div className="mt-10 space-y-4 text-sm text-sky-deep">
-            <div className="flex items-center gap-3"><Phone className="h-4 w-4 text-sky" /> 080330500326</div>
+            <div className="flex items-center gap-3"><Phone className="h-4 w-4 text-sky" /> 08033050326</div>
             <div className="flex items-center gap-3"><Phone className="h-4 w-4 text-sky" /> 08187515551</div>
             <div className="flex items-center gap-3"><Mail className="h-4 w-4 text-sky" /> hello@springhoodproperties.com</div>
             <div className="flex items-center gap-3"><MapPin className="h-4 w-4 text-sky" /> Randle Avenue, Surulere, Lagos</div>
